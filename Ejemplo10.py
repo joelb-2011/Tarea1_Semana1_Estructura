@@ -3,10 +3,12 @@ class Ejemplo10:
         pass
 
     def sumaFor(self):
+        i = 1
         suma = 0
 
-        for i in [1,100,1]:
+        for i in range(5):
             suma = suma + i * i
+            i += 1
 
         print("Suma es: ",format(suma))
         
