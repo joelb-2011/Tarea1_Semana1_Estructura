@@ -6,7 +6,7 @@ class Ejemplo10:
         i = 1
         suma = 0
 
-        for i in range(5):
+        for i in range(100):
             suma = suma + i * i
             i += 1
 
